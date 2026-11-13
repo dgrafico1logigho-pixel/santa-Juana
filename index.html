@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santa Juana Activewear | Ropa Deportiva Femenina — Tienda Oficial</title>
+  <meta name="description" content="Santa Juana Activewear. Diseños exclusivos de ropa deportiva para mujer. Leggings seamless, tops, enterizos y conjuntos de alta compresión. Hecho en Colombia con envíos a todo el país.">
+  
+  <!-- Open Graph / Meta Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://santajuana.store/">
+  <meta property="og:title" content="Santa Juana Activewear | Fuerza, Estilo y Comodidad">
+  <meta property="og:description" content="Descubre nuestra colección de activewear: leggings, tops y enterizos diseñados con tecnología de compresión inteligente. Envíos a todo Colombia.">
+  <meta property="og:image" content="https://santajuana.store/assets/hero.png">
+  
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="container announcement-content">
+      <span>🇨🇴 <strong>ENVÍOS A TODA COLOMBIA</strong> | PAGO SEGURO Y CONTRA ENTREGA | ASESORÍA PERSONALIZADA EN WHATSAPP</span>
+      <a href="https://wa.me/573108247971?text=Hola%20Santa%20Juana,%20quiero%20hacer%20un%20pedido" target="_blank" class="announcement-link">
+        Pedir ahora ➔
+      </a>
+    </div>
+  </div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="site-header" id="navbar">
+    <div class="container header-container">
+      <!-- Mobile menu trigger -->
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menú">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Brand Logo -->
+      <a href="#" class="brand-logo">
+        <img src="assets/logo.png" alt="Santa Juana Activewear" class="logo-img">
+        <div class="brand-text">
+          <span class="brand-name">SANTA JUANA</span>
+          <span class="brand-sub">ACTIVEWEAR</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero" class="nav-link active">Inicio</a>
+        <a href="#categorias" class="nav-link">Categorías</a>
+        <a href="#catalogo" class="nav-link">Catálogo</a>
+        <a href="#beneficios" class="nav-link">Nosotros</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <a href="https://www.instagram.com/santajuana_/" target="_blank" class="action-icon" title="Instagram @santajuana_">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+        </a>
+        <a href="https://wa.me/573108247971?text=Hola%20Santa%20Juana,%20quiero%20asesor%C3%ADa" target="_blank" class="action-icon wa-header-btn" title="WhatsApp Oficial">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+          </svg>
+        </a>
+        <button class="cart-btn" id="openCartBtn" aria-label="Ver carrito">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="cart-badge" id="cartCount">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-backdrop">
+      <img src="assets/hero.png" alt="Santa Juana Activewear - Colección Oficial" class="hero-bg-img">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-badge">NUEVA COLECCIÓN 2026</div>
+      <h1 class="hero-title">FUERZA, ESTILO Y COMODIDAD <br><span class="hero-highlight">EN CADA MOVIMIENTO</span></h1>
+      <p class="hero-desc">
+        Prendas deportivas de alto rendimiento diseñadas y confeccionadas en Colombia. Telas inteligentes con tecnología de compresión óptima, efecto moldeador y máxima transpirabilidad.
+      </p>
+      <div class="hero-cta-group">
+        <a href="#catalogo" class="btn btn-primary">Ver Colección</a>
+        <a href="https://wa.me/573108247971?text=Hola%20Santa%20Juana,%20quiero%20ver%20el%20catálogo%20completo" target="_blank" class="btn btn-outline">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+          </svg>
+          Comprar por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Badges Bar -->
+  <section class="trust-bar" id="beneficios">
+    <div class="container trust-grid">
+      <div class="trust-item">
+        <div class="trust-icon">🇨🇴</div>
+        <div>
+          <h4>Confección Colombiana</h4>
+          <p>Telas premium con compresión y tacto ultrasuave.</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">🚚</div>
+        <div>
+          <h4>Envíos a Todo Colombia</h4>
+          <p>Despachos rápidos desde Cali a nivel nacional.</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">🔒</div>
+        <div>
+          <h4>Compra 100% Segura</h4>
+          <p>Pago contra entrega y pasarelas de pago protegidas.</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">💬</div>
+        <div>
+          <h4>Asesoría Personalizada</h4>
+          <p>Te ayudamos a elegir tu talla ideal en WhatsApp.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Grid -->
+  <section class="section categories-section" id="categorias">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">LÍNEAS DE DISEÑO</span>
+        <h2 class="section-title">Encuentra Tu Estilo Activo</h2>
+        <p class="section-subtitle">Prendas versátiles pensadas para entrenar con total seguridad o vestir casual en tu día a día.</p>
+      </div>
+
+      <div class="category-cards-grid">
+        <div class="cat-card">
+          <img src="assets/products/p1.jpg" alt="Leggings Seamless">
+          <div class="cat-card-overlay">
+            <h3>Leggings & Pantalones</h3>
+            <p>Control de abdomen y ajuste anatómico.</p>
+            <a href="#catalogo" class="cat-btn">Ver Prendas ➔</a>
+          </div>
+        </div>
+        <div class="cat-card">
+          <img src="assets/products/p2.jpg" alt="Tops Deportivos">
+          <div class="cat-card-overlay">
+            <h3>Tops & Bras</h3>
+            <p>Soporte de impacto medio y alto con copas removibles.</p>
+            <a href="#catalogo" class="cat-btn">Ver Prendas ➔</a>
+          </div>
+        </div>
+        <div class="cat-card">
+          <img src="assets/products/p3.jpg" alt="Enterizos Moldeadores">
+          <div class="cat-card-overlay">
+            <h3>Enterizos & Jumpers</h3>
+            <p>Elegancia continua y silueta estilizada sin costuras.</p>
+            <a href="#catalogo" class="cat-btn">Ver Prendas ➔</a>
+          </div>
+        </div>
+        <div class="cat-card">
+          <img src="assets/products/p4.jpg" alt="Bikers y Shorts">
+          <div class="cat-card-overlay">
+            <h3>Bikers & Shorts</h3>
+            <p>Frescura y libertad absoluta en cada zancada.</p>
+            <a href="#catalogo" class="cat-btn">Ver Prendas ➔</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Catalog -->
+  <section class="section catalog-section" id="catalogo">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">CATÁLOGO EXCLUSIVO</span>
+        <h2 class="section-title">Prendas Más Populares</h2>
+        <p class="section-subtitle">Selecciona tus prendas favoritas y pídelas al instante por WhatsApp o añádelas al carrito.</p>
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div class="filter-pills">
+        <button class="filter-pill active" data-filter="all">Todas</button>
+        <button class="filter-pill" data-filter="leggings">Leggings</button>
+        <button class="filter-pill" data-filter="tops">Tops</button>
+        <button class="filter-pill" data-filter="enterizos">Enterizos</button>
+        <button class="filter-pill" data-filter="bikers">Bikers</button>
+      </div>
+
+      <!-- Product Grid -->
+      <div class="products-grid" id="productsGrid">
+        
+        <!-- Product 1 -->
+        <div class="product-card" data-category="leggings">
+          <div class="product-img-wrapper">
+            <span class="product-badge badge-hot">Más Vendido</span>
+            <img src="assets/products/p1.jpg" alt="Legging Seamless Sculpt" class="product-img">
+            <button class="quick-add-btn" onclick="addToCart('Legging Seamless Sculpt', 119900, 'assets/products/p1.jpg')">
+              + Añadir al Carrito
+            </button>
+          </div>
+          <div class="product-info">
+            <span class="product-category">LEGGINGS</span>
+            <h3 class="product-title">Legging Seamless Sculpt</h3>
+            <div class="product-pricing">
+              <span class="current-price">$119.900 COP</span>
+              <span class="old-price">$139.900 COP</span>
+            </div>
+            <div class="product-sizes">
+              <span>Tallas:</span>
+              <span class="size-pill">S</span>
+              <span class="size-pill">M</span>
+              <span class="size-pill">L</span>
+            </div>
+            <a href="https://wa.me/573108247971?text=Hola,%20deseo%20ordenar%20el%20Legging%20Seamless%20Sculpt%20de%20$119.900" target="_blank" class="product-wa-btn">
+              Pedir por WhatsApp ➔
+            </a>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card" data-category="tops">
+          <div class="product-img-wrapper">
+            <span class="product-badge badge-new">Nuevo</span>
+            <img src="assets/products/p2.jpg" alt="Top Deportivo Infinity Back" class="product-img">
+            <button class="quick-add-btn" onclick="addToCart('Top Deportivo Infinity Back', 79900, 'assets/products/p2.jpg')">
+              + Añadir al Carrito
+            </button>
+          </div>
+          <div class="product-info">
+            <span class="product-category">TOPS</span>
+            <h3 class="product-title">Top Deportivo Infinity Back</h3>
+            <div class="product-pricing">
+              <span class="current-price">$79.900 COP</span>
+              <span class="old-price">$94.900 COP</span>
+            </div>
+            <div class="product-sizes">
+              <span>Tallas:</span>
+              <span class="size-pill">S</span>
+              <span class="size-pill">M</span>
+              <span class="size-pill">L</span>
+            </div>
+            <a href="https://wa.me/573108247971?text=Hola,%20deseo%20ordenar%20el%20Top%20Deportivo%20Infinity%20Back%20de%20$79.900" target="_blank" class="product-wa-btn">
+              Pedir por WhatsApp ➔
+            </a>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card" data-category="enterizos">
+          <div class="product-img-wrapper">
+            <span class="product-badge badge-hot">Tendencia</span>
+            <img src="assets/products/p3.jpg" alt="Enterizo Compresión Silhouette" class="product-img">
+            <button class="quick-add-btn" onclick="addToCart('Enterizo Compresión Silhouette', 149900, 'assets/products/p3.jpg')">
+              + Añadir al Carrito
+            </button>
+          </div>
+          <div class="product-info">
+            <span class="product-category">ENTERIZOS</span>
+            <h3 class="product-title">Enterizo Compresión Silhouette</h3>
+            <div class="product-pricing">
+              <span class="current-price">$149.900 COP</span>
+              <span class="old-price">$179.900 COP</span>
+            </div>
+            <div class="product-sizes">
+              <span>Tallas:</span>
+              <span class="size-pill">S</span>
+              <span class="size-pill">M</span>
+              <span class="size-pill">L</span>
+            </div>
+            <a href="https://wa.me/573108247971?text=Hola,%20deseo%20ordenar%20el%20Enterizo%20Compresi%C3%B3n%20Silhouette%20de%20$149.900" target="_blank" class="product-wa-btn">
+              Pedir por WhatsApp ➔
+            </a>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card" data-category="bikers">
+          <div class="product-img-wrapper">
+            <span class="product-badge">Básico</span>
+            <img src="assets/products/p4.jpg" alt="Biker Short Flex High-Waist" class="product-img">
+            <button class="quick-add-btn" onclick="addToCart('Biker Short Flex High-Waist', 69900, 'assets/products/p4.jpg')">
+              + Añadir al Carrito
+            </button>
+          </div>
+          <div class="product-info">
+            <span class="product-category">BIKERS</span>
+            <h3 class="product-title">Biker Short Flex High-Waist</h3>
+            <div class="product-pricing">
+              <span class="current-price">$69.900 COP</span>
+              <span class="old-price">$84.900 COP</span>
+            </div>
+            <div class="product-sizes">
+              <span>Tallas:</span>
+              <span class="size-pill">S</span>
+              <span class="size-pill">M</span>
+              <span class="size-pill">L</span>
+            </div>
+            <a href="https://wa.me/573108247971?text=Hola,%20deseo%20ordenar%20el%20Biker%20Short%20Flex%20High-Waist%20de%20$69.900" target="_blank" class="product-wa-btn">
+              Pedir por WhatsApp ➔
+            </a>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card" data-category="leggings">
+          <div class="product-img-wrapper">
+            <span class="product-badge badge-new">Nuevo Color</span>
+            <img src="assets/products/p5.jpg" alt="Legging Dynamic Ribbed" class="product-img">
+            <button class="quick-add-btn" onclick="addToCart('Legging Dynamic Ribbed', 124900, 'assets/products/p5.jpg')">
+              + Añadir al Carrito
+            </button>
+          </div>
+          <div class="product-info">
+            <span class="product-category">LEGGINGS</span>
+            <h3 class="product-title">Legging Dynamic Ribbed</h3>
+            <div class="product-pricing">
+              <span class="current-price">$124.900 COP</span>
+              <span class="old-price">$145.000 COP</span>
+            </div>
+            <div class="product-sizes">
+              <span>Tallas:</span>
+              <span class="size-pill">S</span>
+              <span class="size-pill">M</span>
+              <span class="size-pill">L</span>
+            </div>
+            <a href="https://wa.me/573108247971?text=Hola,%20deseo%20ordenar%20el%20Legging%20Dynamic%20Ribbed%20de%20$124.900" target="_blank" class="product-wa-btn">
+              Pedir por WhatsApp ➔
+            </a>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card" data-category="tops">
+          <div class="product-img-wrapper">
+            <span class="product-badge">Soporte Alto</span>
+            <img src="assets/products/p6.jpg" alt="Top Racerback Core Pro" class="product-img">
+            <button class="quick-add-btn" onclick="addToCart('Top Racerback Core Pro', 84900, 'assets/products/p6.jpg')">
+              + Añadir al Carrito
+            </button>
+          </div>
+          <div class="product-info">
+            <span class="product-category">TOPS</span>
+            <h3 class="product-title">Top Racerback Core Pro</h3>
+            <div class="product-pricing">
+              <span class="current-price">$84.900 COP</span>
+              <span class="old-price">$99.000 COP</span>
+            </div>
+            <div class="product-sizes">
+              <span>Tallas:</span>
+              <span class="size-pill">S</span>
+              <span class="size-pill">M</span>
+              <span class="size-pill">L</span>
+            </div>
+            <a href="https://wa.me/573108247971?text=Hola,%20deseo%20ordenar%20el%20Top%20Racerback%20Core%20Pro%20de%20$84.900" target="_blank" class="product-wa-btn">
+              Pedir por WhatsApp ➔
+            </a>
+          </div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-card" data-category="leggings">
+          <div class="product-img-wrapper">
+            <span class="product-badge badge-hot">Set Completo</span>
+            <img src="assets/products/p7.jpg" alt="Set Active Essential Duo" class="product-img">
+            <button class="quick-add-btn" onclick="addToCart('Set Active Essential Duo', 169900, 'assets/products/p7.jpg')">
+              + Añadir al Carrito
+            </button>
+          </div>
+          <div class="product-info">
+            <span class="product-category">CONJUNTOS</span>
+            <h3 class="product-title">Set Active Essential Duo</h3>
+            <div class="product-pricing">
+              <span class="current-price">$169.900 COP</span>
+              <span class="old-price">$199.900 COP</span>
+            </div>
+            <div class="product-sizes">
+              <span>Tallas:</span>
+              <span class="size-pill">S</span>
+              <span class="size-pill">M</span>
+              <span class="size-pill">L</span>
+            </div>
+            <a href="https://wa.me/573108247971?text=Hola,%20deseo%20ordenar%20el%20Set%20Active%20Essential%20Duo%20de%20$169.900" target="_blank" class="product-wa-btn">
+              Pedir por WhatsApp ➔
+            </a>
+          </div>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="product-card" data-category="bikers">
+          <div class="product-img-wrapper">
+            <span class="product-badge">Verano</span>
+            <img src="assets/products/p8.jpg" alt="Short Runner Soft-Touch" class="product-img">
+            <button class="quick-add-btn" onclick="addToCart('Short Runner Soft-Touch', 64900, 'assets/products/p8.jpg')">
+              + Añadir al Carrito
+            </button>
+          </div>
+          <div class="product-info">
+            <span class="product-category">SHORTS</span>
+            <h3 class="product-title">Short Runner Soft-Touch</h3>
+            <div class="product-pricing">
+              <span class="current-price">$64.900 COP</span>
+              <span class="old-price">$78.000 COP</span>
+            </div>
+            <div class="product-sizes">
+              <span>Tallas:</span>
+              <span class="size-pill">S</span>
+              <span class="size-pill">M</span>
+              <span class="size-pill">L</span>
+            </div>
+            <a href="https://wa.me/573108247971?text=Hola,%20deseo%20ordenar%20el%20Short%20Runner%20Soft-Touch%20de%20$64.900" target="_blank" class="product-wa-btn">
+              Pedir por WhatsApp ➔
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Institutional / About Section -->
+  <section class="section about-section" id="nosotros">
+    <div class="container about-container">
+      <div class="about-text-col">
+        <span class="section-tag">NUESTRA MARCA</span>
+        <h2 class="section-title">Pasión por el Movimiento y la Confección Colombiana</h2>
+        <p>
+          En <strong>Santa Juana Activewear</strong> concebimos prendas que empoderan tu día a día. Combinamos fibras de alta durabilidad, elongación multidireccional y costuras reforzadas que se adaptan a la silueta femenina brindando seguridad inquebrantable en cada rutina de entrenamiento.
+        </p>
+        <div class="about-highlights">
+          <div class="about-hl-item">
+            <strong>Diseño Anatómico</strong>
+            <p>Prendas con cintura alta y pretinas ergonómicas que no se deslizan ni se doblan.</p>
+          </div>
+          <div class="about-hl-item">
+            <strong>Transpirabilidad Óptima</strong>
+            <p>Tratamiento antibacterial y secado ultra rápido para mantenerte siempre fresca.</p>
+          </div>
+        </div>
+      </div>
+      <div class="about-img-col">
+        <img src="assets/hero.png" alt="Santa Juana Activewear - Diseños Colombianos" class="about-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Service Information Section -->
+  <section class="section contact-section" id="contacto">
+    <div class="container">
+      <div class="contact-card">
+        <div class="contact-header">
+          <span class="section-tag">CENTRO DE ATENCIÓN</span>
+          <h2>¿Tienes dudas con tu pedido o talla?</h2>
+          <p>Escríbenos directamente a nuestras líneas oficiales y una asesora especializada te acompañará en tu compra.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-item">
+            <div class="c-icon">📍</div>
+            <div class="c-info">
+              <strong>Dirección Principal:</strong>
+              <p>Calle 33 # 75C - 31, Cali - Valle, Colombia</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="c-icon">📱</div>
+            <div class="c-info">
+              <strong>WhatsApp & Línea Telefónica:</strong>
+              <p><a href="tel:+573108247971">+57 3108247971</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="c-icon">✉️</div>
+            <div class="c-info">
+              <strong>Correo Electrónico:</strong>
+              <p><a href="mailto:recursoshumanos@santajuana.store">recursoshumanos@santajuana.store</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="c-icon">⏰</div>
+            <div class="c-info">
+              <strong>Horarios de Despacho:</strong>
+              <p>Lunes a Sábado: 8:00 AM – 6:00 PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-action">
+          <a href="https://wa.me/573108247971?text=Hola%20Santa%20Juana,%20deseo%20atenci%C3%B3n%20al%20cliente" target="_blank" class="btn btn-wa-large">
+            Chatear con una Asesora por WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Legal & Corporate Footer (FASE 4 COMPLIANCE FOR META BUSINESS) -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        
+        <!-- Col 1: Brand -->
+        <div class="footer-col brand-col">
+          <div class="footer-logo">
+            <img src="assets/logo.png" alt="Santa Juana Activewear Logo" class="f-logo-img">
+            <span>SANTA JUANA ACTIVEWEAR</span>
+          </div>
+          <p class="footer-tagline">
+            Fuerza, estilo y comodidad en cada movimiento. Prendas colombianas pensadas para potenciar tu seguridad y rendimiento deportivo.
+          </p>
+          <div class="footer-socials">
+            <a href="https://www.instagram.com/santajuana_/" target="_blank" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="https://wa.me/573108247971" target="_blank" aria-label="WhatsApp">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation -->
+        <div class="footer-col">
+          <h4 class="f-col-title">Navegación</h4>
+          <ul class="f-links">
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#categorias">Líneas de Ropa</a></li>
+            <li><a href="#catalogo">Catálogo Completo</a></li>
+            <li><a href="#beneficios">Beneficios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Customer Care & Policies -->
+        <div class="footer-col">
+          <h4 class="f-col-title">Servicio al Cliente</h4>
+          <ul class="f-links">
+            <li><a href="javascript:void(0)" onclick="openModal('enviosModal')">Políticas de Envío</a></li>
+            <li><a href="javascript:void(0)" onclick="openModal('garantiasModal')">Garantías y Cambios</a></li>
+            <li><a href="javascript:void(0)" onclick="openModal('privacidadModal')">Tratamiento de Datos</a></li>
+            <li><a href="javascript:void(0)" onclick="openModal('terminosModal')">Términos y Condiciones</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Mandatory Legal Corporate Dossier (Cámara de Comercio) -->
+        <div class="footer-col legal-col">
+          <h4 class="f-col-title">Información Corporativa Legal</h4>
+          <div class="corporate-box">
+            <p><strong>Razón Social:</strong> GRUPO SANTA JUANA S.A.S.</p>
+            <p><strong>NIT:</strong> 900872354-8</p>
+            <p><strong>Tipo:</strong> S.A.S. — Empresa Privada</p>
+            <p><strong>Cámara de Comercio:</strong> Cámara de Comercio de Cali</p>
+            <p><strong>Matrícula Mercantil:</strong> 384295-19</p>
+            <p><strong>Último Año Renovado:</strong> 2026</p>
+            <p><strong>Dirección:</strong> Calle 33 # 75C - 31, Cali - Valle, Colombia</p>
+            <p><strong>Teléfono Oficial:</strong> +57 3108247971</p>
+            <p><strong>Correo Corporativo:</strong> recursoshumanos@santajuana.store</p>
+            <p><strong>Dominio Web:</strong> santajuana.store</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom">
+        <p>© 2026 Santa Juana Activewear. Todos los derechos reservados. Operado y administrado legalmente por <strong>GRUPO SANTA JUANA S.A.S.</strong> (NIT: 900872354-8).</p>
+        <p class="colombia-badge">Hecho con orgullo en Colombia 🇨🇴</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-out Shopping Cart Drawer -->
+  <div class="cart-drawer-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-header">
+      <h3>Tu Carrito de Compras</h3>
+      <button class="close-cart-btn" id="closeCartBtn">&times;</button>
+    </div>
+    <div class="cart-body" id="cartItemsContainer">
+      <div class="cart-empty" id="cartEmptyState">
+        <p>Tu carrito está vacío actualmente.</p>
+        <a href="#catalogo" class="btn btn-primary" onclick="closeCart()">Explorar Catálogo</a>
+      </div>
+    </div>
+    <div class="cart-footer" id="cartFooter" style="display: none;">
+      <div class="cart-subtotal">
+        <span>Subtotal estimado:</span>
+        <strong id="cartSubtotal">$0 COP</strong>
+      </div>
+      <p class="cart-note">El despacho se coordina con confirmación directa vía WhatsApp.</p>
+      <button class="btn btn-wa-large" id="checkoutBtn" onclick="checkoutViaWhatsApp()">
+        Finalizar Pedido por WhatsApp
+      </button>
+    </div>
+  </aside>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/573108247971?text=Hola%20Santa%20Juana,%20estoy%20en%20la%20tienda%20online%20y%20quiero%20hacer%20una%20consulta" target="_blank" class="floating-wa-btn" title="Chatear con Santa Juana por WhatsApp">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+    </svg>
+  </a>
+
+  <!-- Modals for Legal Policies -->
+  <div class="modal-backdrop" id="policyModal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 id="modalTitle">Información</h3>
+        <button class="modal-close" onclick="closeModal()">&times;</button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
